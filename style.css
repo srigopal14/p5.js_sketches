@@ -1,23 +1,32 @@
-body {
+/* Reset default margins and paddings */
+* {
   margin: 0;
-  background-color: #f0f0f0;
-  display: flex;
-  flex-direction: column;
-  align-items: center; /* horizontal centering only */
-  font-family: sans-serif;
-  text-align: center;
-  padding-top: 20px; /* space at the top for heading */
-  min-height: 100vh;  /* ensures page fills the viewport */
+  padding: 0;
+  box-sizing: border-box;
 }
 
+/* Body styling */
+body {
+  background-color: #f0f0f0;
+  font-family: sans-serif;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;   /* Horizontal centering */
+  padding-top: 20px;     /* Space at the top for heading */
+  min-height: 100vh;     /* Fill viewport height */
+}
+
+/* Page heading */
 h1 {
   margin: 10px 0 20px 0;
   font-size: 28px;
   color: #333;
 }
 
+/* Canvas styling */
 canvas {
   border: 1px solid #ccc;
-  max-width: 100%;  /* makes it responsive on small screens */
+  max-width: 100%; /* Makes canvas responsive on small screens */
   height: auto;
 }
