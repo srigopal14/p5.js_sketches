@@ -1,0 +1,12 @@
+body {
+  margin: 0;                        /* Remove default body spacing */
+  background-color: #f0f0f0;        /* Light gray background */
+  display: flex;                     /* Use flexbox for easy centering */
+  justify-content: center;           /* Center horizontally */
+  align-items: center;               /* Center vertically */
+  height: 100vh;                     /* Full viewport height */
+}
+
+canvas {
+  border: 1px solid #ccc;            /* Light gray border around canvas */
+}
