@@ -1,12 +1,21 @@
 body {
-  margin: 0;                        /* Remove default body spacing */
-  background-color: #f0f0f0;        /* Light gray background */
-  display: flex;                     /* Use flexbox for easy centering */
-  justify-content: center;           /* Center horizontally */
-  align-items: center;               /* Center vertically */
-  height: 100vh;                     /* Full viewport height */
+  margin: 0;
+  background-color: #f0f0f0;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  font-family: sans-serif;
+  text-align: center;
+}
+
+h1 {
+  margin: 10px 0 20px 0;
+  font-size: 28px;
+  color: #333;
 }
 
 canvas {
-  border: 1px solid #ccc;            /* Light gray border around canvas */
+  border: 1px solid #ccc;
 }
