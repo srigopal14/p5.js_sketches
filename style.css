@@ -1,31 +1,44 @@
-/* Reset default margins and paddings */
-* {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
-}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<style>
+  /* Reset default margins and paddings */
+  * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
 
-/* Body styling */
-body {
-  background-color: #f0f0f0;
-  font-family: sans-serif;
-  text-align: center;
-  display: flex;
-  flex-direction: column;
-  align-items: center;   /* horizontal centering */
-  padding: 20px;         /* space at the top */
-}
+  /* Body styling */
+  body {
+    background-color: #f0f0f0;
+    font-family: sans-serif;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;   /* horizontal centering */
+    padding: 20px;         /* space at the top */
+  }
 
-/* Page heading */
-h1 {
-  margin-bottom: 20px;   /* space between heading and canvas */
-  font-size: 28px;
-  color: #333;
-}
+  /* Page heading */
+  h1 {
+    margin-bottom: 20px;   /* space between heading and canvas */
+    font-size: 28px;
+    color: #333;
+  }
 
-/* Canvas styling */
-canvas {
-  border: 1px solid #ccc;
-  max-width: 100%;       /* responsive */
-  height: auto;
-}
+  /* Canvas styling */
+  canvas {
+    border: 1px solid #ccc;
+    max-width: 100%;       /* responsive */
+    height: auto;
+  }
+</style>
+</head>
+<body>
+  <h1>My Canvas Title</h1>
+  <canvas id="myCanvas" width="400" height="300"></canvas>
+</body>
+</html>
