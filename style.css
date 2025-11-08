@@ -12,14 +12,13 @@ body {
   text-align: center;
   display: flex;
   flex-direction: column;
-  align-items: center;   /* Horizontal centering */
-  padding-top: 20px;     /* Space at the top for heading */
-  min-height: 100vh;     /* Fill viewport height */
+  align-items: center;   /* horizontal centering */
+  padding: 20px;         /* space at the top */
 }
 
 /* Page heading */
 h1 {
-  margin: 10px 0 20px 0;
+  margin-bottom: 20px;   /* space between heading and canvas */
   font-size: 28px;
   color: #333;
 }
@@ -27,6 +26,6 @@ h1 {
 /* Canvas styling */
 canvas {
   border: 1px solid #ccc;
-  max-width: 100%; /* Makes canvas responsive on small screens */
+  max-width: 100%;       /* responsive */
   height: auto;
 }
