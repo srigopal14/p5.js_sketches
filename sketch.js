@@ -1,9 +1,10 @@
 function setup() {
-  createCanvas(600, 600);
+  let cnv = createCanvas(600, 600);
+  cnv.parent('canvas-container'); // Attach canvas to <main>
   background(240, 235, 230);
   angleMode(DEGREES);
 
-  // Draw all parts in logical order
+  // Draw all parts
   drawBraid();
   drawHair();
   drawEars();
